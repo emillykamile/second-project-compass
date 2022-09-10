@@ -1,36 +1,61 @@
 @import '../imports/reset.css';
 
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
-div .menu-desktop {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+@media screen and (max-width: 425px) {
+    div .main-menu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+     
+    nav {
+        display: flex;     
+        justify-content: space-between;
+        align-items: center;   
+    }
+
+    div .menu-wrapper {
+        display: none;
+    }
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px 50px 30px 40px;
-}
 
-ul {
-    display: flex;
-    gap: 65px;
+@media screen and (min-width: 768px) {
+    div .main-menu-desk {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
     
-}
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 50px 30px 40px;
+    }
+    
+    ul {
+        display: flex;
+        gap: 65px;
+        
+    }
+    
+    .btn-contact {
+        background: #232340;
+        color: #FFF;
+        padding: 19px;
+        border-radius: 10px;
+    }
 
-.btn-contact {
-    background: #232340;
-    color: #FFF;
-    padding: 19px;
-    border-radius: 10px;
+    .main-menu-mobile {
+        display: none;
+    }
 }
-
 
 
 
