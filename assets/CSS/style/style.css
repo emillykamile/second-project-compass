@@ -1,10 +1,48 @@
-@import '../imports/reset.css';
+@import '../style/reset.css';
 
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
+    h1.stand {
+        color: #232340;
+
+    }
+
+    h2.agency {
+        color: #606060;
+}
+    button.btn-recent-work {
+        background: #5468E7;
+        color: #FFF;
+        height: 56px;
+        width: 160px;
+        border-radius: 8px;
+
+}
+
+    button.btn-featured {
+        background: #FFBA79;
+        border-radius: 14.22px;
+        height: 29px;
+        width: 119px;
+
+    }
+
+    td {
+        font-size: 12px;
+    }
+
+    div.table {
+        display: flex;
+}
+
+    .section-two {
+        background-color: #232340;
+        color: #FFF;
+    }
+
 
 @media screen and (max-width: 767px) {
     div .main-menu-desk {
@@ -58,11 +96,6 @@ body {
         flex-direction: column;
         height: 100%;
     }
-
-    img.img-header-desk {
-        display: none;
-    }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -111,12 +144,28 @@ body {
         display: none;
     }
 
-    img.img-header-mobile {
-        display: none;
+    main {
+        display: flex;
+    }
+}
+    .container-home {
+        display: flex;
+        align-items: center;
+        margin: 0px 20px 0px 80px;
     }
 
+
+    .text-section-one {
+        display: grid;
+        grid-gap: 30px;
+        
 }
 
+    h1.stand {
+        font-size: 64px;
+    }
 
-
+    h2.agency {
+        font-size: 16px;
+    }
 
