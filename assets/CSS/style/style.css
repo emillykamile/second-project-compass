@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
+    a {
+        color: #8B8B8B;
+    }
+
     h1.stand {
         color: #232340;
 
@@ -13,6 +17,34 @@ body {
     h2.agency {
         color: #606060;
 }
+
+    .dark-mode-svg-mobile {
+        margin-bottom: 15px;
+}
+
+    .description-footer-container {
+        margin-bottom: 24px;
+    }
+
+    .container-footer {
+        background-color: #FFF;
+    }
+    
+
+
+
+    .contact-us-section {
+        width: 311px;
+        height: 110px;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+
     button.btn-recent-work {
         background: #5468E7;
         color: #FFF;
@@ -20,7 +52,53 @@ body {
         width: 160px;
         border-radius: 8px;
 
+    }
+    .menu-option-foot {
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+        border: 1px solid #ADADAD;
+        border-radius: 8px;
+        text-align: left;
+        padding-left: 24px;
+        color: #ADADAD;
+ }
 }
+    .bottom-footer {
+        width: 311px;
+        height: 315px;
+        margin-top: 80px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        margin: 0 auto;
+}
+
+    .first-section {
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+}
+
+
+    div.footer-wp-mobile button.btn-contactus-footer {
+        border-radius: 8px;
+        color: #5468E7;
+        font-size: 16px;
+        background-color: #FFF;
+        width: 263px;
+        height: 56px;
+}
+
+    .backg-hamburguer {
+        background-color: #232340;
+    }
 
     button.btn-featured {
         background: #FFBA79;
@@ -38,10 +116,200 @@ body {
         display: flex;
 }
 
+    .container-footer {
+    overflow: hidden;
+  }
+
+    .footer-bg {
+        display: block;
+        z-index: 0;
+        width: 456px;
+        height: 582px;
+    }
+    
+    .footer-img-desk {
+        display: none;
+    }
+
+    .grid-container {
+        display: grid;
+    }
+
+    .footer-content1 {
+        display: flex;
+    }
+
+
+
     .section-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+  @media screen and (min-width: 768px) {
+    .container-grid {
+        
+        height: 1068px;
+    }
+
+    .main-menu-color {
+        background-color: #232340;
+    }
+ }
+
+  .container-footer .container-grid {
+    display: flex;
+    background-color: #5468E7;
+    border-radius: 24px;
+    overflow: hidden;
+    color: #FFF;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+    
+  }
+
+    section.section-two {
         background-color: #232340;
         color: #FFF;
+        padding: 0px 80px 0px 80px;
+        align-items: center;
     }
+      
+      .container-who-01 {
+        display: flex;
+        align-items: center;
+        padding-top: 128px;
+      }
+      .container-who-01 .logo-two {
+        margin-right: 176px;
+      }
+      .container-01 ol {
+        display: flex;
+        gap: 24px;
+      }
+      .container-01 ol li {
+        color: #8B8B8B;
+      }
+
+      button.btn-contact-us-two {
+        background-color: #5468E7;
+        color: #FFFFFF;
+        width: 180px;
+        height: 64px;
+      }
+      
+      .container-two-title {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+        margin-left: 200px;
+        margin-bottom: 83px;
+      }
+      .container-two-title h2.h2-two {
+        width: 668px;
+        height: 144px;
+        margin-right: 158px;
+      }
+      .container-two-title .btn-arrow {
+        display: flex;
+        gap: 16px;
+      }
+      .container-two-title img {
+        width: 64px;
+        height: 64px;
+      }
+      
+      div.two-years {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      div.years {
+        display: flex;
+        flex-direction: column;
+        gap: 102px;
+        margin-right: 155px;
+      }
+      div.years h3 {
+        color: #8B8B8B;
+      }
+    img.img-two-section {
+        width: 100%vw;
+      }
+      
+      .container-two-footer {
+        display: flex;
+        justify-content: space-between;
+      }
+      .containe-two-footer .container-two-text {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 169px;
+      }
+
+      .container-two-footer .container-two-text p {
+        width: 468px;
+        height: 96px;
+        margin-left: 198px;
+      }
+      .container-two-footer .container-two-text button {
+        margin-left: 198px;
+      }
+
+      .container-two-footer .container-two-text .line {
+        display: flex;
+        justify-content: space-between;
+        width: 668px;
+      }
+      .container-two-footer .container-two-text .line h3 {
+        width: 468px;
+        height: 80px;
+      }
+    div.28 {
+        width: 402px;
+        height: 402px;
+        margin-top: 192px;
+      }
+    
+    div.28 img {
+        width: 245px;
+        height: 239px;
+     }
+ 
+     .we-are-title {
+        color: #5468E7;
+        font-weight: 600;
+     }
+
+     .we-are-subtitle {
+        font-weight: 700;
+        font-size: 110px;
+     }
+
+     .we-are-p {
+        font-size: 18px;
+     }
+
+     .container-grid {
+        background-color: #5468E7;
+     }
+
+    
+
+
 
 
 @media screen and (max-width: 767px) {
@@ -49,6 +317,55 @@ body {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+    .footer-container-one1 {
+        display: none;
+    }
+    .footer-container-one2 {
+        display: none;
+    }
+
+    .footer-wp-mobile {
+        display: flex;
+        
+    }
+
+    .footer-wp-mobile {
+        font-size: 24px;
+    }
+
+    .dark-mode-svg-mobile {
+        margin-bottom: 15px;
+    }
+
+    .menu-option-foot {
+        font-size: 30px;
+    }
+
+    .description-footer-container {
+        margin-bottom: 15px;
+    }
+    .footer-mobile-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .footer-mb {
+        margin: 25px;
+    }
+
+    .container-grid {
+        display: flex;
+        height: 500px;
+        border-radius: 10px;
+        
+    }
+
+    .main-menu-color {
+        background-color: #232340;
     }
      
     nav {
@@ -68,8 +385,6 @@ body {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        width: 375px;
-        height: 812px;
         font-size: 32px;
         color: #FFF;
     }
@@ -96,7 +411,98 @@ body {
         flex-direction: column;
         height: 100%;
     }
+
+    .agency {
+        display: flex;
+       margin-right: 60px;
+    }
+
+    .stand {
+        display: flex;
+        margin-right: 60px;
+    }
+
+    main div.container-home {
+        display: grid;
+ 
+      }
+
+    p.page-not-found {
+        text-align: center;
+    }
+
+    p.p-not-found {
+        text-align: center;
+    }
+
+    .footer-wrapper-3 {
+        display: none;
+    }
+
+
+    .fourth-button {
+        border-radius: 8px;
+        color: #5468E7;
+        font-size: 16px;
+        background-color: #FFF;
+        display: block;
+        width: 263px;
+        height: 56px;
+    }
+
+    .fourth-button {
+        border-radius: 8px;
+        color: #5468E7;
+        font-size: 16px;
+        background-color: #FFF;
+        display: block;
+        width: 263px;
+        height: 56px;
+    }
+
+    .option-menu-foot{
+        display: inline-block;
+        width: 311px;
+        height: 48px;
+    }
+
+    option {
+        font-weight: normal;
+        display: block;
+        white-space: nowrap;
+        min-height: 1.2em;
+        padding: 0px 2px 1px;
+    }
+
+    
+
+    .icons-footer {
+        display: flex;
+        justify-content: space-around;
+        width: 136px;
+        margin-bottom: 10px;
+    }
+
+    .social-media {
+        display: none;
 }
+
+    .container-footer {
+        overflow: hidden;
+    }
+
+    .index {
+        overflow: hidden;
+    }
+
+    main div.container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     div .main-menu-desk {
@@ -116,6 +522,37 @@ body {
         display: flex;
         gap: 65px;
         
+    }
+
+    .footer-mobile-container {
+        margin-top: 100px;
+    }
+    .footer-mb {
+            margin: 10px;
+            font-size: 24px;
+    }
+
+    .btn-contactus-footer {
+        margin-top: 25px;
+    }
+    
+    .footer-mobile-container {
+        margin-top: 100px;
+    }
+
+    .contact-us-section {
+        font-size: 18px;
+    }
+    
+    .menu-option-foot {
+        width: 360px;
+        font-size: 24px;
+    }
+
+    .container-footer .container-grid {
+        height: 500px;
+        margin: 20px;
+        border-radius: 54px;
     }
     
     .btn-contact {
@@ -144,16 +581,15 @@ body {
         display: none;
     }
 
-    main {
+    main.index {
         display: flex;
     }
 }
-    .container-home {
+    div.container-home {
         display: flex;
         align-items: center;
         margin: 0px 20px 0px 80px;
     }
-
 
     .text-section-one {
         display: grid;
@@ -168,4 +604,28 @@ body {
     h2.agency {
         font-size: 16px;
     }
+
+    .not-found {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+    div.error {
+        justify-content: space-between;
+     }
+
+     h1.page-not-found {
+        margin-left: 20%;
+        margin-bottom: 10px;
+     }
+
+     button.back-to-home {
+        margin-left: 30%;
+        margin-top: 10px;
+    }
+
+    
+   
+
 
